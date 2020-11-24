@@ -1,0 +1,5 @@
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\Swap_Delegado\Swap_Delegado\bin\Debug\Swap_Delegado.exe.config
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\Swap_Delegado\Swap_Delegado\obj\Debug\Swap_Delegado.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\Swap_Delegado\Swap_Delegado\obj\Debug\Swap_Delegado.Form1.resources
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\Swap_Delegado\Swap_Delegado\obj\Debug\Swap_Delegado.Properties.Resources.resources
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\Swap_Delegado\Swap_Delegado\obj\Debug\Swap_Delegado.csproj.GenerateResource.Cache

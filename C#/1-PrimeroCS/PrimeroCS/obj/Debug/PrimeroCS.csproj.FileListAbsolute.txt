@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\PrimeroCS\PrimeroCS\bin\Debug\PrimeroCS.exe.config
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\PrimeroCS\PrimeroCS\bin\Debug\PrimeroCS.exe
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\PrimeroCS\PrimeroCS\bin\Debug\PrimeroCS.pdb
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\PrimeroCS\PrimeroCS\obj\Debug\PrimeroCS.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\PrimeroCS\PrimeroCS\obj\Debug\PrimeroCS.Properties.Resources.resources
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\PrimeroCS\PrimeroCS\obj\Debug\PrimeroCS.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\PrimeroCS\PrimeroCS\obj\Debug\PrimeroCS.exe
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\PrimeroCS\PrimeroCS\obj\Debug\PrimeroCS.pdb
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\PrimeroCS\PrimeroCS\obj\Debug\PrimeroCS.Form1.resources
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\1-PrimeroCS\PrimeroCS\bin\Debug\PrimeroCS.exe.config
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\1-PrimeroCS\PrimeroCS\obj\Debug\PrimeroCS.exe
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\1-PrimeroCS\PrimeroCS\obj\Debug\PrimeroCS.pdb

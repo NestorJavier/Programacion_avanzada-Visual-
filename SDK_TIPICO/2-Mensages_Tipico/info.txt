@@ -1,0 +1,13 @@
+*Metodos:
+//Sin metodos nuevos
+--------------------
+*Handles:
+
+--------------------
+*Mensages:
+
+--------------------
+*Tipo:
+
+------------------- 
+*Estructuras:

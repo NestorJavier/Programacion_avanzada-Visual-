@@ -1,0 +1,13 @@
+*Metodos:
+En este programa no existen metodos nuevos
+--------------------
+*Handles:
+
+--------------------
+*Mensages:
+
+--------------------
+*Tipo:
+
+------------------- 
+*ESTRUCTURAS:

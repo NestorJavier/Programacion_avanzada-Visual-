@@ -1,0 +1,4 @@
+
+
+Avance Mensajes_Tipico: 
+Este Programa imprime las coordenadas del cursor cuando se da click izquierdo

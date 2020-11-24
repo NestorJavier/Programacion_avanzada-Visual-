@@ -1,0 +1,4 @@
+26 Septiembre de 2017
+
+Avance_Cascaron_MFC: 
+		Este programa crea una ventana emergente con un "Hola".

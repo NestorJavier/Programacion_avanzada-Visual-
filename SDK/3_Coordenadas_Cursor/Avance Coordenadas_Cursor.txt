@@ -1,0 +1,5 @@
+31/08/17
+
+Coordenadas_Cursor: 
+Este programa imprime un las coordenadas del cursor cundo se da clic izquierdo dentro de la pantalla
+

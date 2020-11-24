@@ -1,0 +1,7 @@
+	Avance Dialogo Controles:
+
+
+		Este Programa muestra una ventana emergente cuando se da click izquierdo, dentro 
+		de esta ventana Existen 2 Edit Box y 3 botones, Cancel, Ok y Accion.
+		Los dos primeros Botones son para terminar con la ventana. y el boton Accion
+		realiza un intercambio entre los textos que se muestran en las Edit Box.

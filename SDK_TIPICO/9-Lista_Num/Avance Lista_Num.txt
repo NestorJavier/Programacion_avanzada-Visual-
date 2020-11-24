@@ -1,0 +1,5 @@
+11 Septiembre de 2017
+
+Lista_Num: Este programa crea una lista simple de numeros aleatorios, los imprime en el area cliente
+	   y tambien genera un cuadro de dialogo en el cual se encuantra un boton "Accion" que cuando se presiona
+	   muestra los numeros generados en un combo que se encuentra dentro del mismo cuadro de dialogo.

@@ -1,0 +1,33 @@
+*Metodos:
+
+-MessageBox: crea, muesra y ejecuta un cuadro de mensage, el cuadro contiene un mensage y titulos definidos por la aplicacion.
+
+int MessageBox(
+  HWND hWnd,          // handle of owner window
+  LPCTSTR lpText,     // address of text in message box
+  LPCTSTR lpCaption,  // address of title of message box
+  UINT uType          // style of message box
+); 
+
+--------------------
+*Handles:
+
+--------------------
+*Mensages:
+
+WM_RBUTTONUP: se publica cuando el usuario libera el botón derecho del ratón mientras el cursor está en el área de cliente de una ventana.
+Si el ratón no se captura, el mensaje se registra en la ventana debajo del cursor. De lo contrario, el mensaje se contabiliza en la ventana 
+que ha capturado el ratón.
+
+
+WM_RBUTTONDOWN:  se publica cuando el usuario presiona el botón derecho del ratón mientras el cursor está en el área de cliente de una 
+ventana. Si el ratón no se captura, el mensaje se registra en la ventana debajo del cursor. De lo contrario, el mensaje se contabiliza en
+la ventana que ha capturado el ratón.
+
+
+
+--------------------
+*Tipo:
+
+------------------- 
+*Estructuras:

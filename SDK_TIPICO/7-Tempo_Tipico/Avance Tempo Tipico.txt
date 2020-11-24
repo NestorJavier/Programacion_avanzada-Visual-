@@ -1,0 +1,5 @@
+11 Septiembre de 2017
+
+Tempo TIPICO: Este programa imprime un contador en el area cliente el cual comienza en 100
+	      y aumenta con la ayuda de un timer que aumenta cada 20 milisegundos, el contador 
+	      se imprime cuando se da click izquierdo en el area cliente.

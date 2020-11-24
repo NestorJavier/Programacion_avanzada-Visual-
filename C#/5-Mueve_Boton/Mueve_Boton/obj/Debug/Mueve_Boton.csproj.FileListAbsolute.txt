@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\Mueve_Boton\Mueve_Boton\bin\Debug\Mueve_Boton.exe.config
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\Mueve_Boton\Mueve_Boton\bin\Debug\Mueve_Boton.exe
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\Mueve_Boton\Mueve_Boton\bin\Debug\Mueve_Boton.pdb
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\Mueve_Boton\Mueve_Boton\obj\Debug\Mueve_Boton.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\Mueve_Boton\Mueve_Boton\obj\Debug\Mueve_Boton.Form1.resources
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\Mueve_Boton\Mueve_Boton\obj\Debug\Mueve_Boton.Properties.Resources.resources
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\Mueve_Boton\Mueve_Boton\obj\Debug\Mueve_Boton.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\Mueve_Boton\Mueve_Boton\obj\Debug\Mueve_Boton.exe
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\Mueve_Boton\Mueve_Boton\obj\Debug\Mueve_Boton.pdb
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\5-Mueve_Boton\Mueve_Boton\bin\Debug\Mueve_Boton.exe.config
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\5-Mueve_Boton\Mueve_Boton\obj\Debug\Mueve_Boton.exe
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\5-Mueve_Boton\Mueve_Boton\obj\Debug\Mueve_Boton.pdb

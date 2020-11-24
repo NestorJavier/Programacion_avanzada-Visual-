@@ -1,0 +1,9 @@
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\MensajesMouse\MensajesMouse\bin\Debug\MensajesMouse.exe.config
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\MensajesMouse\MensajesMouse\bin\Debug\MensajesMouse.exe
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\MensajesMouse\MensajesMouse\bin\Debug\MensajesMouse.pdb
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\MensajesMouse\MensajesMouse\obj\Debug\MensajesMouse.Form1.resources
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\MensajesMouse\MensajesMouse\obj\Debug\MensajesMouse.Properties.Resources.resources
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\MensajesMouse\MensajesMouse\obj\Debug\MensajesMouse.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\MensajesMouse\MensajesMouse\obj\Debug\MensajesMouse.exe
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\MensajesMouse\MensajesMouse\obj\Debug\MensajesMouse.pdb
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\MensajesMouse\MensajesMouse\obj\Debug\MensajesMouse.csprojResolveAssemblyReference.cache

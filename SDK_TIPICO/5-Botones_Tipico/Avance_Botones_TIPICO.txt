@@ -1,0 +1,15 @@
+	Avance Botones Tipico:
+
+
+		Este Programa muestra una ventana emergente la cual aparece cuando es seleccionado
+		desde un menu desplegable(Popup) llamado Botones, dentro de la ventana desplegada,
+		inicialmente existen 3 botones, Cancel, OK y Build.
+		Los 2 Primeros Botones son para terminar la ventana, y el boton de Build funciona 
+		para contruir 5 botones mas los cuales son los siguientes.
+		Hide, Move, Resize, Push y Nuevo. Los primeros 4 funcionanan de manera distinta y 
+		realizan acciones sobre el boton (Nuevo) y cada que se presiona uno de estos 
+		botones se realiza una accion sobre el boton Nuevo, se inactiva el boton que fue 
+		presionado y aparece un 6to boton (ReBuild) el cual sirve para reestablecer el 
+		estado original del boton Nuevo y para volver a habilitar el boton que se habia 
+		presionado antes.
+

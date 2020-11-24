@@ -1,0 +1,266 @@
+*Metodos: 
+
+-LoadCursor: carga el recurso de cursor especificado desde el archivo ejecutable (.EXE) asociado con una instancia de aplicación.
+
+HCURSOR LoadCursor(
+  HINSTANCE hInstance,  // handle to application instance
+  LPCTSTR lpCursorName  // name string or cursor resource identifier
+);
+
+-GetStockObject: recupera un identificador a una de las plumas predefinidas, cepillos, fuentes o paletas.
+
+HGDIOBJ GetStockObject(
+  int fnObject   // type of stock object
+);
+
+
+-ShowWindow:  establece el estado de presentación de la ventana especificada.
+
+BOOL ShowWindow(
+  HWND hWnd,     // handle to window
+  int nCmdShow   // show state of window
+);
+
+-RegisterClass: registra una clase de ventana para su uso posterior en llamadas a la función CreateWindow o CreateWindowEx.
+
+ATOM RegisterClass(
+  CONST WNDCLASS *lpWndClass   // address of structure with class 
+                               // data
+);
+
+
+-CreateWindow: crea una ventana superpuesta, emergente o secundaria. Especifica la clase de ventana, el título de la ventana, el estilo
+de la ventana y (opcionalmente) la posición inicial y el tamaño de la ventana. La función también especifica el padre o propietario de 
+la ventana, si lo hay, y el menú de la ventana.
+
+HWND CreateWindow(
+  LPCTSTR lpClassName,  // pointer to registered class name
+  LPCTSTR lpWindowName, // pointer to window name
+  DWORD dwStyle,        // window style
+  int x,                // horizontal position of window
+  int y,                // vertical position of window
+  int nWidth,           // window width
+  int nHeight,          // window height
+  HWND hWndParent,      // handle to parent or owner window
+  HMENU hMenu,          // handle to menu or child-window identifier
+  HANDLE hInstance,     // handle to application instance
+  LPVOID lpParam        // pointer to window-creation data
+);
+
+
+-ShowWindow: establece el estado de presentación de la ventana especificada.
+
+BOOL ShowWindow(
+  HWND hWnd,     // handle to window
+  int nCmdShow   // show state of window
+);
+
+
+-UpdateWindow: actualiza el área de cliente de la ventana especificada enviando un mensaje WM_PAINT a la ventana si la región de actualización de la ventana
+no está vacío. La función envía un mensaje WM_PAINT directamente al procedimiento de ventana de la ventana especificada, omitiendo la aplicación
+cola. Si la región de actualización está vacía, no se envía ningún mensaje.
+
+BOOL UpdateWindow(
+  HWND hWnd   // handle of window
+);
+
+
+-GetMessage: recupera un mensaje de la cola de mensajes del hilo llamante y lo coloca en la estructura especificada. Esta función puede 
+recuperar tanto los mensajes asociados a una ventana especificada como los mensajes de hilo enviados a través de la función PostThreadMessage.
+La función recupera mensajes que se encuentran dentro de un intervalo especificado de valores de mensaje. GetMessage no recupera mensajes 
+para ventanas que pertenecen a otros subprocesos o aplicaciones.
+
+BOOL GetMessage(
+  LPMSG lpMsg,         // address of structure with message
+  HWND hWnd,           // handle of window
+  UINT wMsgFilterMin,  // first message
+  UINT wMsgFilterMax   // last message
+);
+
+
+-TranslateMessage: convierte mensajes de clave virtual en mensajes de caracteres. Los mensajes de caracteres se contabilizan en la cola de 
+mensajes del subproceso que se va a leer la próxima vez que el subproceso llama a la función GetMessage o PeekMessage.
+
+BOOL TranslateMessage(
+  CONST MSG *lpMsg   // address of structure with message
+);
+
+
+-DispatchMessage: envía un mensaje a un procedimiento de ventana. Se suele utilizar para enviar un mensaje recuperado por la función GetMessage.
+
+LONG DispatchMessage(
+  CONST MSG *lpmsg   // pointer to structure with message
+);
+
+
+-GetClientRect: recupera las coordenadas del área de cliente de una ventana. Las coordenadas del cliente especifican las esquinas superior 
+izquierda e inferior derecha del área cliente. Dado que las coordenadas del cliente son relativas a la esquina superior izquierda del área 
+de cliente de una ventana, las coordenadas de la esquina superior izquierda son (0,0).
+
+BOOL GetClientRect(
+  HWND hWnd,      // handle to window
+  LPRECT lpRect   // address of structure for client coordinates
+);
+
+
+-BeginPaint: prepara la ventana especificada para pintar y rellena una estructura PAINTSTRUCT con información sobre la pintura.
+
+HDC BeginPaint(
+  HWND hwnd,  // handle to window
+  LPPAINTSTRUCT lpPaint
+              // pointer to structure for paint information
+);
+
+
+-SetTextColor: establece el color de texto para el contexto de dispositivo especificado en el color especificado.
+
+COLORREF SetTextColor(
+  HDC hdc,           // handle to device context
+  COLORREF crColor   // text color
+);
+
+
+-TextOut: escribe una cadena de caracteres en la ubicación especificada, utilizando la fuente seleccionada, el color de fondo y el color 
+del texto.
+
+BOOL TextOut(
+  HDC hdc,           // handle to device context
+  int nXStart,       // x-coordinate of starting position
+  int nYStart,       // y-coordinate of starting position
+  LPCTSTR lpString,  // pointer to string
+  int cbString       // number of characters in string
+);
+
+
+-EndPaint: marca el final de la pintura en la ventana especificada. Esta función es necesaria para cada llamada a la función BeginPaint,
+pero sólo después de completar la pintura.
+
+BOOL EndPaint(
+  HWND hWnd,  // handle to window
+  CONST PAINTSTRUCT *lpPaint 
+              // pointer to structure for paint data
+);
+
+
+-PostQuitMessage: indica al sistema que un hilo ha realizado una solicitud para finalizar (salir). Se utiliza típicamente en respuesta a una
+WM_DESTROY mensaje.
+
+VOID PostQuitMessage(
+  int nExitCode   // exit code
+);
+
+--------------------
+*Handles:
+
+HINSTANCE: Los tipos de datos simples soportados por la API de Win32 se utilizan para definir valores de retorno de función, parámetros de función y 
+mensaje y miembros de estructura. Definen el tamaño y el significado de estos elementos
+
+
+HWND: Los tipos de datos simples soportados por la API de Win32 se utilizan para definir valores de retorno de función, parámetros de función y 
+mensaje y miembros de estructura. Definen el tamaño y el significado de estos elementos
+
+--------------------
+*Mensages:
+
+WM_PAINT:Una aplicación envía el mensaje WM_PAINT cuando el sistema u otra aplicación realiza una solicitud para pintar una parte de la 
+ventana de una aplicación. El mensaje se envía cuando se llama a la función UpdateWindow o RedrawWindow o por la función DispatchMessage 
+cuando la aplicación obtiene un mensaje WM_PAINT utilizando la funciónGetMessage oPeekMessage.
+ 
+hdc = (HDC) wParam; // the device context to draw in
+
+
+WM_DESTROY: El mensaje WM_DESTROY se envía cuando se está destruyendo una ventana. Se envía al procedimiento de ventana de la ventana 
+que se destruye después de que la ventana se quita de la pantalla.
+
+
+--------------------
+*Tipo: 
+
+LRESULT: Los tipos de datos simples soportados por la API de Win32 se utilizan para definir valores de retorno de función, parámetros
+ de función y mensaje y miembros de estructura. Definen el tamaño y el significado de estos elementos
+
+
+CALLBACK:Los tipos de datos simples soportados por la API de Win32 se utilizan para definir valores de retorno de función, parámetros
+ de función y mensaje y miembros de estructura. Definen el tamaño y el significado de estos elementos
+
+
+UNIT: Los tipos de datos simples soportados por la API de Win32 se utilizan para definir valores de retorno de función, parámetros
+ de función y mensaje y miembros de estructura. Definen el tamaño y el significado de estos elementos
+
+WPARAM:Los tipos de datos simples soportados por la API de Win32 se utilizan para definir valores de retorno de función, parámetros
+ de función y mensaje y miembros de estructura. Definen el tamaño y el significado de estos elementos
+
+WINAPI: Los tipos de datos simples soportados por la API de Win32 se utilizan para definir valores de retorno de función, parámetros
+ de función y mensaje y miembros de estructura. Definen el tamaño y el significado de estos elementos
+
+LPSTR: Los tipos de datos simples soportados por la API de Win32 se utilizan para definir valores de retorno de función, parámetros
+ de función y mensaje y miembros de estructura. Definen el tamaño y el significado de estos elementos
+
+HDC: Los tipos de datos simples soportados por la API de Win32 se utilizan para definir valores de retorno de función, parámetros
+ de función y mensaje y miembros de estructura. Definen el tamaño y el significado de estos elementos
+
+------------------- 
+*ESTRUCTURAS:
+
+MSG: contiene información de mensaje de la cola de mensajes de un subproceso. 
+
+typedef struct tagMSG {     // msg 
+    HWND   hwnd;     
+    UINT   message; 
+    WPARAM wParam; 
+    LPARAM lParam; 
+    DWORD  time; 
+    POINT  pt; 
+} MSG; 
+
+
+WNDCLASS: contiene los atributos de clase de ventana que están registrados por la función RegisterClass.
+
+
+typedef struct _WNDCLASS { 
+    UINT    style; 
+    WNDPROC lpfnWndProc; 
+    int     cbClsExtra; 
+    int     cbWndExtra; 
+    HANDLE  hInstance; 
+    HICON   hIcon; 
+    HCURSOR hCursor; 
+    HBRUSH  hbrBackground; 
+    LPCTSTR lpszMenuName; 
+    LPCTSTR lpszClassName; 
+} WNDCLASS; 
+
+
+PAINSTRUCT: contiene información para una aplicación. Esta información se puede utilizar para pintar el
+ área de cliente de una ventana propiedad de esa aplicación.
+
+typedef struct tagPAINTSTRUCT { // ps 
+    HDC  hdc; 
+    BOOL fErase; 
+    RECT rcPaint; 
+    BOOL fRestore; 
+    BOOL fIncUpdate; 
+    BYTE rgbReserved[32]; 
+} PAINTSTRUCT; 
+
+
+RECT: define las coordenadas de las esquinas superior izquierda e inferior derecha de un rectángulo.
+
+typedef struct _RECT { 
+    LONG left; 
+    LONG top; 
+    LONG right; 
+    LONG bottom; 
+} RECT; 
+
+
+RGB: macro selecciona un color rojo, verde, azul (RGB) basado en los argumentos suministrados y las capacidades de color del dispositivo de
+salida.
+
+COLORREF RGB(
+  BYTE bRed,    // red component of color
+  BYTE bGreen,  // green component of color
+  BYTE bBlue    // blue component of color
+);
+ 
+

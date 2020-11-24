@@ -1,0 +1,9 @@
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\Delegados_Alumnos\Delegados_Alumnos\bin\Debug\Delegados_Alumnos.exe.config
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\Delegados_Alumnos\Delegados_Alumnos\bin\Debug\Delegados_Alumnos.exe
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\Delegados_Alumnos\Delegados_Alumnos\bin\Debug\Delegados_Alumnos.pdb
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\Delegados_Alumnos\Delegados_Alumnos\obj\Debug\Delegados_Alumnos.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\Delegados_Alumnos\Delegados_Alumnos\obj\Debug\Delegados_Alumnos.Form1.resources
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\Delegados_Alumnos\Delegados_Alumnos\obj\Debug\Delegados_Alumnos.Properties.Resources.resources
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\Delegados_Alumnos\Delegados_Alumnos\obj\Debug\Delegados_Alumnos.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\Delegados_Alumnos\Delegados_Alumnos\obj\Debug\Delegados_Alumnos.exe
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\Delegados_Alumnos\Delegados_Alumnos\obj\Debug\Delegados_Alumnos.pdb

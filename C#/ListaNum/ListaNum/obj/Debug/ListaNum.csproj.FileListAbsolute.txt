@@ -1,0 +1,9 @@
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\ListaNum\ListaNum\bin\Debug\ListaNum.exe.config
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\ListaNum\ListaNum\bin\Debug\ListaNum.exe
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\ListaNum\ListaNum\bin\Debug\ListaNum.pdb
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\ListaNum\ListaNum\obj\Debug\ListaNum.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\ListaNum\ListaNum\obj\Debug\ListaNum.Form1.resources
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\ListaNum\ListaNum\obj\Debug\ListaNum.Properties.Resources.resources
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\ListaNum\ListaNum\obj\Debug\ListaNum.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\ListaNum\ListaNum\obj\Debug\ListaNum.exe
+C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\C#\ListaNum\ListaNum\obj\Debug\ListaNum.pdb

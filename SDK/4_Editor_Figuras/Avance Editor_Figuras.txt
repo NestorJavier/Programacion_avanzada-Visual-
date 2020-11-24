@@ -1,0 +1,6 @@
+31/08/17
+
+Editor Figuras:
+
+Este programa contiene un menu desplegable (POPUP) en el cual se puede escoger 
+una figura la cual se dibuja dentro del area cliente.

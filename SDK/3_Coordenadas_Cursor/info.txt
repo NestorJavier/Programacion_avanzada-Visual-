@@ -1,0 +1,23 @@
+*Metodos:
+
+InvalidateRect: agrega un rectángulo a la región de actualización de la ventana especificada. La región de actualización representa la 
+parte del área de cliente de la ventana que se debe volver a dibujar.
+
+BOOL InvalidateRect(
+  HWND hWnd,  // handle of window with changed update region
+  CONST RECT *lpRect,
+              // address of rectangle coordinates
+  BOOL bErase // erase-background flag
+);
+
+--------------------
+*Handles:
+
+--------------------
+*Mensages:
+
+--------------------
+*Tipo:
+
+------------------- 
+*Estructuras:

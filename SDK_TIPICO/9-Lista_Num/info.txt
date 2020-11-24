@@ -1,0 +1,49 @@
+*Metodos:
+
+GetDlgItem: recupera el identificador de un control en el cuadro de diálogo especificado.
+
+HWND GetDlgItem (
+  HWND hDlg, // identificador del cuadro de diálogo
+  int nIDDlgItem // identificador de control
+); 
+
+SendDlgItemMessage: envía un mensaje al control especificado en un cuadro de diálogo.
+
+LONG SendDlgItemMessage (
+  HWND hDlg, // identificador del cuadro de diálogo
+  int nIDDlgItem, // identificador de control
+  UINT Msg, // mensaje para enviar
+  WPARAM wParam, // primer parámetro del mensaje
+  LPARAM lParam // segundo parámetro de mensaje
+);
+
+SendMessage: envía el mensaje especificado a una ventana o ventanas. La función llama al procedimiento de ventana para la ventana 
+especificada y no vuelve hasta que el procedimiento de ventana haya procesado el mensaje.
+
+LRESULT SendMessage (
+  HWND hWnd, // identificador de la ventana de destino
+  UINT Msg, // mensaje para enviar
+  WPARAM wParam, // primer parámetro del mensaje
+  LPARAM lParam // segundo parámetro de mensaje
+);
+
+--------------------
+*Handles:
+
+--------------------
+*Mensages:
+
+--------------------
+*Tipo:
+
+------------------- 
+*Estructuras:
+
+reg: Esta estructura contiene un dato y un apuntador al nodo siguiente
+
+struct reg
+{
+	int num;
+	Nodo *sig;
+};
+

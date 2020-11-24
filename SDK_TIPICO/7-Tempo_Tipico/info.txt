@@ -1,0 +1,37 @@
+*Metodos:
+
+SetTimer: crea un temporizador con el valor de tiempo de espera especificado.
+
+UINT SetTimer(
+  HWND hWnd,              // handle of window for timer messages
+  UINT nIDEvent,          // timer identifier
+  UINT uElapse,           // time-out value
+  TIMERPROC lpTimerFunc   // address of timer procedure
+);
+--------------------
+*Handles:
+
+--------------------
+*Mensages:
+
+WM_TIMER: se contabiliza en la cola de mensajes del subproceso de instalación cuando expira un temporizador. Puede procesar el mensaje proporcionando un WM_TIMER
+en el procedimiento de ventana. De lo contrario, el procedimiento de ventana predeterminado llamará a la función de devolución de llamada TimerProc especificada en la llamada
+a la función SetTimer utilizada para instalar el temporizador.
+
+WM_TIMER
+wTimerID = wParam;             // timer identifier 
+tmprc = (TIMERPROC *) lParam;  // address of timer callback 
+
+
+
+WM_CREATE:  se envía cuando una aplicación solicita que se cree una ventana llamando a la función CreateWindowEx o CreateWindow.
+El procedimiento de ventana de la nueva ventana recibe este mensaje después de crear la ventana, pero antes de que la ventana se vuelva visible.
+
+WM_CREATE 
+lpcs = (LPCREATESTRUCT) lParam; // structure with creation data 
+
+--------------------
+*Tipo:
+
+------------------- 
+*Estructuras:

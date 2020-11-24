@@ -1,0 +1,7 @@
+
+
+Pre Examen_TIPICO: Este programa imita la funcion de un pizarron, en el cual existe un giz
+		   con puntas de distintos tamaños y tambien dos colores, tambien se 
+		   cuenta con un borrador.
+Rev.
+	OK

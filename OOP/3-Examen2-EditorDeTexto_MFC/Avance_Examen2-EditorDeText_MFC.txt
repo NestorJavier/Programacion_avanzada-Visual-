@@ -1,0 +1,8 @@
+28 Septiembre de 2017
+
+Avance_Examen2-EditorDeText_MFC:
+		Este programa imprime en el area cliente dentro de un rectangulo, un texto que es 
+		ingresado por el teclado y cuando se llega al limite derecho del rectangulo se
+		crea otra linea y cuando se llega al limite inferior derecho se borra el texto
+		completo y el texto vuelve a escribirse desde la parte superior izquierda 
+		del rectangulo.

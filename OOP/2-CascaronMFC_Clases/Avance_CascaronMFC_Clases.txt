@@ -1,0 +1,5 @@
+27 Septiembre de 2017
+
+Avance_CascaronMFC_Clases: 
+		Este programa imprime en el area cliente (especificamente donde se ha dado click
+		Izquierdo) un texto que es ingresado por el teclado.

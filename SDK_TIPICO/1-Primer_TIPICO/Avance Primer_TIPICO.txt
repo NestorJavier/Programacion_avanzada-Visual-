@@ -1,0 +1,5 @@
+
+
+Primer_Tipico: Despliega un menu con la ayuda de las teclas ALT, en dicho menu
+se encuentran las opciones: File la cual a su vez despliega un submenu de el cual
+sirve para cerrar el programa.

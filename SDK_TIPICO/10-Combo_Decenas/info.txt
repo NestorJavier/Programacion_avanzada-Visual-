@@ -1,0 +1,47 @@
+*Metodos:
+
+ReleaseDC: libera un contexto de dispositivo (DC), liberándolo para su uso por otras aplicaciones.
+			El efecto de la función ReleaseDC depende del tipo de contexto del dispositivo.
+			Libera sólo los contextos de dispositivos comunes y de ventanas. No tiene ningún efecto en los contextos de clase o de 
+			dispositivo privado.
+
+int ReleaseDC (
+  HWND hWnd, // manejar a la ventana
+  HDC hDC // contexto identificador a dispositivo
+);
+
+GetDC: Da a una aplicación más control sobre cómo y si el recorte se produce en el área de cliente.
+
+HDC GetDC (
+  HWND hWnd // manejar a una ventana
+);
+
+GetDlgCtrlID: devuelve el identificador del control especificado.
+
+int GetDlgCtrlID (
+  HWND hwndCtl // control de control
+);
+
+--------------------
+*Handles:
+
+--------------------
+*Mensages:
+
+--------------------
+*Tipo:
+
+------------------- 
+*Estructuras:
+
+reg1: Esta estructura contiene un dato "decena", un handle y tambien tiene un par de apuntadores, siguiente, 
+		apunta al siguiente nodo en la lista y abajo apunta a la lista que contiene ese mismo nodo, 
+
+struct reg
+{
+	int dec;
+	NP *sig;
+	NR *abajo;
+	HWND hCombo;
+};
+

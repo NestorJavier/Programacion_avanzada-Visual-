@@ -1,0 +1,47 @@
+*Metodos:
+
+SetROP2: establece el modo actual de mezcla de primer plano. GDI utiliza el modo de mezcla de primer plano para combinar bolígrafos e interiores de objetos
+colores ya en la pantalla. El modo de mezcla de primer plano define cómo los colores del pincel o lápiz y los colores de la imagen existente son
+a combinar.
+
+int SetROP2(
+  HDC hdc,         // handle of device context
+  int fnDrawMode   // drawing mode
+);
+
+
+Sleep:  suspende la ejecución del subproceso actual durante un intervalo especificado.
+
+VOID Sleep(
+  DWORD dwMilliseconds   // sleep time in milliseconds
+);
+
+
+CreatePen: crea un lápiz lógico que tiene el estilo, el ancho y el color especificados. El lápiz puede ser seleccionado posteriormente en un contexto de
+dispositivo y utilizado para dibujar líneas y curvas.
+
+HPEN CreatePen(
+  int fnPenStyle,    // pen style
+  int nWidth,        // pen width
+  COLORREF crColor   // pen color
+);
+
+
+SelectObject: selecciona un objeto en el contexto del dispositivo especificado. El nuevo objeto reemplaza el objeto anterior del mismo tipo.
+
+HGDIOBJ SelectObject(
+  HDC hdc,          // handle to device context
+  HGDIOBJ hgdiobj   // handle to object
+);
+
+--------------------
+*Handles:
+
+--------------------
+*Mensages:
+
+--------------------
+*Tipo:
+
+------------------- 
+*ESTRUCTURAS:

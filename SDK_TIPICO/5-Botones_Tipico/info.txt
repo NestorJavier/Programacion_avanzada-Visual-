@@ -1,0 +1,59 @@
+*Metodos:
+
+EnableWindow: habilita o deshabilita la entrada de mouse y teclado a la ventana o control especificado. 
+			  Cuando se desactiva la entrada, la ventana no recibe entrada como clics del ratón y pulsaciones de teclas. 
+			  Cuando la entrada está habilitada, la ventana recibe todas las entradas.
+
+
+
+MoveWindow: cambia la posición y las dimensiones de la ventana especificada. Para una ventana de nivel 
+			superior, la posición y las dimensiones son relativas a la esquina superior izquierda de la pantalla. 
+			Para una ventana secundaria, se relacionan con la esquina superior izquierda del área de cliente de la ventana primaria.
+
+BOOL MoveWindow(
+  HWND hWnd,      // handle to window
+  int X,          // horizontal position
+  int Y,          // vertical position
+  int nWidth,     // width
+  int nHeight,    // height
+  BOOL bRepaint   // repaint flag
+);
+
+SendMessage: envía el mensaje especificado a una ventana o ventanas. La función llama al procedimiento de ventana para la ventana 
+			especificada y no vuelve hasta que el procedimiento de ventana haya procesado el mensaje. La función PostMessage, por 
+			el contrario, envía un mensaje a la cola de mensajes de un hilo y devuelve inmediatamente.
+
+LRESULT (
+  HWND hWnd,      // handle of destination window
+  UINT Msg,       // message to send
+  WPARAM wParam,  // first message parameter
+  LPARAM lParam   // second message parameter
+);
+
+
+SetWindowPos: cambia el tamaño, la posición y el orden Z de una ventana secundaria, emergente o de nivel superior. Las ventanas hijo,
+				pop-up y de nivel superior se ordenan según su apariencia en la pantalla. La ventana superior recibe el rango más alto 
+				y es la primera ventana en el orden Z.
+BOOL SetWindowPos(
+  HWND hWnd,             // handle to window
+  HWND hWndInsertAfter,  // placement-order handle
+  int X,                 // horizontal position
+  int Y,                 // vertical position
+  int cx,                // width
+  int cy,                // height
+  UINT uFlags            // window-positioning flags
+);
+
+SWP_NOZORDER, HWND_TOP, HWND_TOPMOST
+
+--------------------
+*Handles:
+
+--------------------
+*Mensages:
+
+--------------------
+*Tipo:
+
+------------------- 
+*ESTRUCTURAS:

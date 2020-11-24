@@ -1,0 +1,20 @@
+*Metodos:
+
+LoadAccelerators:  carga la tabla de acelerador especificada.
+
+HACCEL LoadAccelerators(
+  HINSTANCE hInstance,  // handle to application instance
+  LPCTSTR lpTableName   // address of table-name string
+);
+
+--------------------
+*Handles:
+
+--------------------
+*Mensages:
+
+--------------------
+*Tipo:
+
+------------------- 
+*Estructuras:

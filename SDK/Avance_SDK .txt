@@ -1,0 +1,17 @@
+
+
+Cascaron:
+Este programa imprime un "Hola Mundo" en el Area cliente.
+
+Avance Mensage Mouse:
+Muestra un mensage en una ventana emergente cuando se precionana los botones 
+Izquierdo o derecho del mouse.
+
+Coordenadas_Cursor: 
+Este programa imprime un las coordenadas del cursor cundo se da clic izquierdo dentro de la pantalla
+
+Editor Figuras:
+Este programa contiene un menu desplegable (POPUP) en el cual se puede escoger 
+una figura la cual se dibuja dentro del area cliente.
+Rev.
+OK

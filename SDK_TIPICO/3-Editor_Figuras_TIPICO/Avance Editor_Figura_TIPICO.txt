@@ -1,0 +1,5 @@
+
+
+Editor de Figuras TIPICO: Este programa dibuja Rectangulos, Ellipses, Lineas 
+y otras figuras, tambien se puede cambiar el tamaño de la brocha y el color con el que se  
+ha de diburar las figuras.

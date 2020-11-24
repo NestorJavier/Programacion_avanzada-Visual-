@@ -1,0 +1,68 @@
+*Metodos:
+
+-Rectangle:Dibuja un recgtangulo:el rectangulo se dibuja con el pincel y la brocha actual.
+
+BOOL Rectangle(
+  HDC hdc,         // handle to device context
+  int nLeftRect,   // x-coord of bounding rectangle's upper-left corner
+  int nTopRect,    // y-coord of bounding rectangle's upper-left corner
+  int nRightRect,  // x-coord of bounding rectangle's lower-right corner
+  int nBottomRect  // y-coord of bounding rectangle's lower-right corner
+);
+
+
+-Ellipse: Dibuja un Elipse. the centro de la elipse es el centro del rectangulo especificado. 
+
+BOOL Ellipse(
+  HDC hdc,        // handle to device context
+  int nLeftRect,  // x-coord of bounding rectangle's upper-left corner
+  int nTopRect,   // y-coord of bounding rectangle's upper-left corner
+  int nRightRect, // x-coord of bounding rectangle's lower-right corner
+  int nBottomRect // y-coord of bounding rectangle's lower-right corner
+);
+ 
+-RoundRect: Dibuja un rectangulo con esquinas redondeadas.
+
+BOOL RoundRect(
+  HDC hdc,         // handle to device context
+  int nLeftRect,   // x-coord of bounding rectangle's upper-left corner
+  int nTopRect,    // y-coord of bounding rectangle's upper-left corner
+  int nRightRect,  // x-coord of bounding rectangle's lower-right corner
+  int nBottomRect, // y-coord of bounding rectangle's lower-right corner
+  int nWidth,      // width of ellipse used to draw rounded corners
+  int nHeight      // height of ellipse used to draw rounded corners
+);
+
+
+-MoveToEx:  Actualiza la poicion actualdel punto especificado y opcionalmente regresa la posicion anterior. 
+
+BOOL MoveToEx(
+  HDC hdc,          // handle to device context
+  int X,            // x-coordinate of new current position
+  int Y,            // y-coordinate of new current position
+  LPPOINT lpPoint   // pointer to old current position
+);
+
+
+-LineTo: Dibuja una linea.
+
+BOOL LineTo(
+  HDC hdc,    // device context handle
+  int nXEnd,  // x-coordinate of line's ending point
+  int nYEnd   // y-coordinate of line's ending point
+);
+
+
+--------------------
+*Handles:
+
+--------------------
+*Mensages:
+
+-WM_COMMAND: Se envía cuando el usuario selecciona un elemento de comando de un menú, cuando un control 
+envía un mensaje de notificación a su ventana primaria o cuando se pulsa una pulsación del acelerador.
+--------------------
+*Tipo:
+
+------------------- 
+*ESTRUCTURAS:

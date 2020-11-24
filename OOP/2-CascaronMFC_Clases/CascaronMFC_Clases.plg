@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CascaronMFC_Clases - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\User\AppData\Local\Temp\RSP883F.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/CascaronMFC_Clases.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\OOP\2-CascaronMFC_Clases\cascaronMFC_Clases.cpp"
+]
+Creating command line "cl.exe @C:\Users\User\AppData\Local\Temp\RSP883F.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/CascaronMFC_Clases.pdb" /machine:I386 /out:"Release/CascaronMFC_Clases.exe"  ".\Release\cascaronMFC_Clases.obj" "
+<h3>Output Window</h3>
+Compiling...
+cascaronMFC_Clases.cpp
+Linking...
+LINK : warning LNK4089: all references to "comdlg32.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+CascaronMFC_Clases.exe - 0 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: CascaronMFC_Clases - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\User\AppData\Local\Temp\RSP8B0F.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/CascaronMFC_Clases.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\User\Desktop\Nestor Javier Mendez Gutierrez\Visual 2017\OOP\2-CascaronMFC_Clases\cascaronMFC_Clases.cpp"
+]
+Creating command line "cl.exe @C:\Users\User\AppData\Local\Temp\RSP8B0F.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/CascaronMFC_Clases.pdb" /debug /machine:I386 /out:"Debug/CascaronMFC_Clases.exe" /pdbtype:sept  ".\Debug\cascaronMFC_Clases.obj" "
+<h3>Output Window</h3>
+Compiling...
+cascaronMFC_Clases.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+CascaronMFC_Clases.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

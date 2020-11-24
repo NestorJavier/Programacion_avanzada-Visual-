@@ -1,0 +1,8 @@
+13 Septiembre de 2017
+
+Combo_Decenas: Este programa crea una lista de listas la cual contiene numeros generados 
+		aleatoriamente estos numeros son insertados de manera ordenada de menor a mayor
+		y tambien ordenados dependiendo en que decena se encuantren.
+		Una ves que se tiene la lista de listas, esta se puede imprimir en el area 
+		cliente pero tambien puede ser mostrada en un cuadro de dialogo en el 
+		cual se muestra en combos.

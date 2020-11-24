@@ -1,0 +1,22 @@
+*Metodos:
+
+KillTimer: Destruye el Timer especificado. 
+
+BOOL KillTimer(
+  HWND hWnd,      // handle of window that installed timer
+  UINT uIDEvent   // timer identifier
+);
+
+
+
+--------------------
+*Handles:
+
+--------------------
+*Mensages:
+
+--------------------
+*Tipo:
+
+------------------- 
+*Estructuras:

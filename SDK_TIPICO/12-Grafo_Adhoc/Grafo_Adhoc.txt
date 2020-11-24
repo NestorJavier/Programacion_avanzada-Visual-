@@ -1,0 +1,4 @@
+28 Septiembre de 2017
+
+Avance Grafo_Adhoc: 
+		Este programa crea un Grafo Adhoc y despues lo imprime en el area cliente.

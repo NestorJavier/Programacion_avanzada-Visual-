@@ -1,0 +1,6 @@
+31/08/17
+
+Avance Mensage_Mouse
+
+Muestra un mensage en una ventana emergente cuando se precionana los botones 
+Izquierdo o derecho del mouse

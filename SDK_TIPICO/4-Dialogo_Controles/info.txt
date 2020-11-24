@@ -1,0 +1,44 @@
+*Metodos:
+
+SetDlgItemText: establece el título o el texto de un control en un cuadro de diálogo.
+BOOL SetDlgItemText(
+  HWND hDlg,         // handle of dialog box
+  int nIDDlgItem,    // identifier of control
+  LPCTSTR lpString   // text to set
+);
+
+
+
+GetDlgItemText: recupera el título o el texto asociado con un control en un cuadro de diálogo.
+
+UINT GetDlgItemText(
+  HWND hDlg,       // handle of dialog box
+  int nIDDlgItem,  // identifier of control
+  LPTSTR lpString, // address of buffer for text
+  int nMaxCount    // maximum size of string
+);
+ 
+DialogBox: crea un cuadro de diálogo modal desde un recurso de plantilla de cuadro de diálogo.
+DialogBox no devuelve el control hasta que la función de devolución de llamada especificada 
+finaliza el cuadro de diálogo modal llamando a la función EndDialog. La macro DialogBox utiliza 
+la función DialogBoxParam.
+
+int DialogBox(
+  HINSTANCE hInstance,  // handle to application instance
+  LPCTSTR lpTemplate,   // identifies dialog box template
+  HWND hWndParent,      // handle to owner window
+  DLGPROC lpDialogFunc  // pointer to dialog box procedure
+);
+
+
+--------------------
+*Handles:
+
+--------------------
+*Mensages:
+
+--------------------
+*Tipo:
+
+------------------- 
+*ESTRUCTURAS:
